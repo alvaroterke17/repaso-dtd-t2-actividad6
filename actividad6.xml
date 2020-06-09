@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe [
+<!ELEMENT informe (mensaje*)>
+<!ELEMENT mensaje (medico,paciente,fecha,centro_medico,diagnostico)>
+<!ELEMENT medico (#PCDATA)>
+<!ELEMENT paciente (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT centro_medico (#PCDATA)>
+<!ELEMENT diagnostico (#PCDATA)>
+<!ENTITY medico1 "Dr.Gaona">
+<!ENTITY medico2 "Dra.Pérez">
+<!ENTITY centro_medico1 "La vega de aca">
+<!ENTITY centro_medico2 "Hospital provincial">
+]>
+<informe>
+    <mensaje>
+        <medico>&medico2;</medico>
+        <paciente>Marta Garcia Rodriguez</paciente>
+        <fecha>01-06-2020</fecha>
+        <centro_medico>&centro_medico1;</centro_medico>
+        <diagnostico>Fascitis plantar</diagnostico>
+    </mensaje>
+
+    <mensaje>
+        <medico>&medico1;</medico>
+        <paciente>Juan Benaventura</paciente>
+        <fecha>02-06-2020</fecha>
+        <centro_medico>&centro_medico2;</centro_medico>
+        <diagnostico>Esguince de rodilla</diagnostico>
+    </mensaje>
+
+    <mensaje>
+        <medico>&medico2;</medico>
+        <paciente>Marta Garcia Rodriguez</paciente>
+        <fecha>01-06-2020</fecha>
+        <centro_medico>&centro_medico1;</centro_medico>
+        <diagnostico>Fascitis plantar</diagnostico>
+    </mensaje>
+
+    <mensaje>
+        <medico>&medico1;</medico>
+        <paciente>Juan Benaventura</paciente>
+        <fecha>02-06-2020</fecha>
+        <centro_medico>&centro_medico2;</centro_medico>
+        <diagnostico>Esguince de rodilla</diagnostico>
+    </mensaje>
+
+</informe>

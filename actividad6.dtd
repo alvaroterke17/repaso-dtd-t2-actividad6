@@ -1,0 +1,13 @@
+<!ELEMENT informe (informe*)>
+<!ELEMENT informe (medico,paciente,fecha,centro_medico,diagnostico)>
+<!ELEMENT medico (#PCDATA)>
+<!ELEMENT paciente (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT centro_medico (#PCDATA)>
+<!ENTITY medico1 "Dr.Gaona">
+<!ENTITY medico2 "Dra.Pérez">
+<!ENTITY centro_medico1 "La vega de aca">
+<!ENTITY centro_medico2 "Hospital provincial">
+
+
+<!DOCTYPE informe SYSTEM "activid.dtd">

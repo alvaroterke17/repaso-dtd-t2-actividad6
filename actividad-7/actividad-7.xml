@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeropuerto [
+    <!ELEMENT aeropuerto (nombre, telefono, vuelos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT vuelos (vuelo*)>
+        <!ATTLIST vuelos panel-de-vuelos-de-salida CDATA >
+     <!ELEMENT vuelo ( origen, destino, hora-salida, hora-llegada, regular?)>
+        <!ATTLIST vuelo codigo ID #REQUIRED >
+        <!ATTLIST vuelo estado (C|OK|D) "OK">
+    <!ELEMENT origen (#PCDATA)>
+    <!ELEMENT destino (#PCDATA)>
+    <!ELEMENT hora-salida (#PCDATA)>
+    <!ELEMENT hora-llegada (#PCDATA)>
+    <!ELEMENT regular EMPTY>
+]>
+
+<aeropuerto>
+    <nombre>LEi</nombre>
+    <telefono>913 211000</telefono>
+    <panel-de-vuelos-de-salida>01/06/2020</panel-de-vuelos-de-salida>
+    <vuelos>
+       <vuelo código="L2136" estado="D">
+          <origen>ALmeria</origen>
+          <destino>Dublin</destino>
+          <hora-salida>9:30</hora-salida>
+          <hora-llegada>11:30</hora-llegada>
+          <diario />
+       </vuelo>
+       <vuelo código="L2047" estado="C">
+          <origen>ALmeria</origen>
+          <destino>Milan</destino>
+          <hora-salida>10:15</hora-salida>
+          <hora-llegada>11:15</hora-llegada>
+       </vuelo>
+    </vuelos>
+</aeropuerto>

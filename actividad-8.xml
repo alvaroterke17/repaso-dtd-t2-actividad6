@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE playlist SYSTEM "actividad-8.dtd">
+
+<playlist>
+    <cancion formato="mp3" drm="true">
+        <codigo>AUD001</codigo>
+        <titulo>Shar fin blues</titulo>
+        <artista>The Drones</artista>
+        <metadatos>
+            <anyo>2007</anyo>
+            <genero>Rock</genero>
+            <portada>/usr/local/covers/drones.png</portada>
+            <bitrate>128kbps</bitrate>
+            <tamanyo>5 MB</tamanyo>
+            <album>Wait long by the river and the bodies of your enemies willfloat by</album>
+        </metadatos>
+    </cancion>
+    
+
+    <cancion formato="wav" drm="true">
+        <codigo>AUD002</codigo>
+        <titulo>This Year</titulo>
+        <artista>The Mountain Goats</artista>
+        <metadatos>
+            <bitrate>128kbps</bitrate>
+            <album>The Sunset Tree</album>
+            <tamanyo>6 MB</tamanyo>
+            <anyo>2005</anyo>
+        </metadatos>
+    </cancion>
+
+    
+    <cancion formato="ogg" drm="false">
+        <codigo>AUD003</codigo>
+        <titulo>El amor valiente</titulo>
+        <artista>Deluxe</artista>
+        <metadatos>
+            <anyo>2007</anyo>
+            <portada>/usr/local/covers/deluxe.png</portada>
+            <album>Fin de un viaje infinito</album>
+        </metadatos>
+    </cancion>
+
+    
+    <cancion formato="mp3" drm="true">
+        <codigo>AUD004</codigo>
+        <titulo>Viajero</titulo>
+        <artista>Shinova</artista>
+        <metadatos></metadatos>
+            <anyo>2016</anyo>
+            <bitrate>128kbps</bitrate>
+            <album>Volver</album>
+        </metadatos>
+    </cancion>
+</playlist>

@@ -1,0 +1,16 @@
+<!ELEMENT playlist (cancion*)>
+<!ELEMENT cancion (codigo, titulo, artista)>
+	<!ENTITY % formato "mp3| wav | ogg">
+	<!ENTITY % drm "true| false">
+<!ELEMENT codigo (#PCDATA)>
+	<!ATTLIST codigo id CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+	<!ATTLIST titulo  CDATA  #REQUIRED>
+<!ELEMENT artista (#PCDATA)>
+	<!ATTLIST artista  CDATA #REQUIRED>
+<!ELEMENT metadatos (anyo*, genero*, portada*, bitrate*, tamanyo*, album*)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT portada (#PCDATA)>
+<!ELEMENT bitrate (#PCDATA)>
+<!ELEMENT tamanyo (#PCDATA)>
+<!ELEMENT album (#PCDATA)>  

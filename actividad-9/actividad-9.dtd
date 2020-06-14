@@ -1,0 +1,13 @@
+<!ELEMENT vehiculos (coche, moto, camion)*>
+    <!ENTITY % Atributos "combustible (electrico | gasolina | diesel | gnc ) #FIXED">
+    <!ENTITY % comunes "  
+        motor CDATA 
+        ruedas CDATA 
+        marca CDATA 
+        modelo CDATA">
+<!ELEMENT coche (%comunes;)>
+    <!ATTLIST coche %Atributos;>
+<!ELEMENT moto (%comunes;)>
+        <!ATTLIST moto %Atributos;>
+<!ELEMENT camion (%comunes;)>
+        <!ATTLIST camion %Atributos;>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehiculos SYSTEM "actividad-9.dtd">
+
+<vehiculos>
+    <coche combustible="electrico">
+        <motor>3745cc</motor>
+        <ruedas>4</ruedas>
+        <marca>Porsche</marca>
+        <modelo>911 Turbo S 2020</modelo>
+    </coche>
+    <moto combustible="gasolina">
+        <motor>600cc</motor>
+        <ruedas>2</ruedas>
+        <marca>kawasaki</marca>
+        <modelo>ninja</modelo>
+    </moto>
+    <camion combustible="diesel">
+        <motor>4000cc</motor>
+        <ruedas>6</ruedas>
+        <marca>Optimus</marca>
+        <modelo>Prime</modelo>
+    </camion>  
+</vehiculos>
